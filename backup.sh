@@ -3,10 +3,10 @@ echo "Preparing Installation of Dot-files"
 echo "Entering home directory"
 cd ~
 echo "Cloning dot-files"
-git clone git://github.com/reshubhan/dot-files.git
+git clone git://github.com/reshubhan/dotfiles.git
 echo "dot-files Cloned"
 echo "Cloned, now symlinking"
-echo "Backing up old bash_profile to bash_profile.bak"
+echo "Backing up old bashrc to bashrc.bak"
 mv ~/.bashrc ~/bashrc.bak
 echo "symlinking bash_profile..."
 ln -s ~/dotfiles/bashrc ~/.bashrc
